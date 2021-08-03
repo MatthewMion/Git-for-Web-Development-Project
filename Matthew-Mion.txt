@@ -52,7 +52,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     16. What is the difference between a section and a div
         - A section is semantic HTML while a div is not.
-        
+
     17. What is CSS used for? 
         - CSS is used to style a webpage/app
 
@@ -81,17 +81,46 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         - line-height:
 
     26. What do we use to change the spacing between letters?
+        - letter-spacing:
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - text-transform:uppercase; text-transform:lowercase; text-transform:capitalize; 
+
     28. How do I add a 1px border around my div that is dotted and black?
+        - border: 1px dotted black
+
     29. How do I select everything on the page? 
+        - *{}
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        - /**/
+
+    31. How do I find out what file I am in, when I am using the command line?
+        - pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        - ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - rm filename.filetype  , there is no confirmation to delete
+
     34. Why should I use version control? 
+        - To be able to save files while retaining all of the previous files incase of a rollback. Necessary for working in teams.
+        
     35. How often should I commit to github?
+        - About every 20 min or when some functionality has been completed.
+
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name
+
     37. Walk me through Lambda's git flow. 
+        1. First fork the repo so it becomes your own
+        2. Clone that fork to your local machine
+        3. Create your own branch
+        4. Work on your repo
+        5. Git add to ready your changes for committing 
+        6. Commit the changes
+        7. Push the changes back to the Github repo
+        8. Create pull request so that your file may be merged into the main repo
 
 Stretch Questions
 
