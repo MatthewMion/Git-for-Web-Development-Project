@@ -68,7 +68,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     21. How do we select a p element with a single class of “human””?
         - .human p{}
 
-  ??  22. What is a parent child selector? When would this be useful?
+    22. What is a parent child selector? When would this be useful?
         - > Selects all elements that are a direct child of the specified element. When you would want to change the style of the child but not the parent.
 
     23. How do you select all links within a div with the class of sidebar?
@@ -117,15 +117,23 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         2. Clone that fork to your local machine
         3. Create your own branch
         4. Work on your repo
-        5. Git add to ready your changes for committing 
-        6. Commit the changes
-        7. Push the changes back to the Github repo
-        8. Create pull request so that your file may be merged into the main repo
+        5. git add . to ready your changes for committing 
+        6. commit the changes
+        7. push the changes back to the Github repo
+        8. Create pull request so that your file may be merged into the main repo.   
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        - An inline element takes up only the width that is required and does not start with a new line. A block element takes up the width of the entire lane and start with a new line
+
     2. What happens when an element is positioned absolutely? 
+        -The position is no longer static and can be placed anywhere on the page
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - By using display properties such as display:block; width:300px;
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - Block: <p><div><h1> , Inline:<span><a> , Inline-Block: <img>
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        - The box model is the method where we package CSS code in a way to create layers around the HTML code. Margins, padding, borders and content are used to create a box(CSS) around the content(HTML)
